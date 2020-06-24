@@ -49,8 +49,8 @@ def conn_login():
 
 
                 s.post(redirect_url,data=payload)
-                f = s.post("http://{}/dvwa/security.php".format(ext),data=level_payload)
-                f = s.get(url_req)
+                s.post("http://{}/dvwa/security.php".format(ext),data=level_payload)
+                s.get(url_req)
 
 
 def payload_php():
