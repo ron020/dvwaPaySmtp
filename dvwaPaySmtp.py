@@ -31,7 +31,7 @@ def conn_login():
         redirect_url = (redirect.url)
         #EXTRACT_IP
         extract = urlparse(url)
-        ext = (extract.hostname)
+        ext = (extract.netloc)
         with requests.Session() as s:
 
                 payload = {
