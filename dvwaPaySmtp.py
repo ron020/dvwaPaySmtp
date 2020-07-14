@@ -3,7 +3,6 @@ import os
 import sys
 import socket
 import random
-import getpass
 import requests
 import threading
 import http.server
