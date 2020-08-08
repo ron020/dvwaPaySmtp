@@ -9,12 +9,16 @@ import http.server
 import socketserver
 from urllib.parse import urlparse
 
+"""
+How to use: Youtube: https://youtu.be/q3n1hnrux8g
+"""
+
 def banner():
         print ("[++]+=======================================================+[++]")
         print ("[++]|                  P4ySmTp (version DVWA)               |[++]")
         print ("[++]|Use:python3 dvwaPaySmtp.py host port user              |[++]")
         print ("[++]|Example:python3 dvwaPaySmtp.py 192.168.0.10 25 www-data|[++]")
-        print ("[++]|By ron020                                              |[++]")
+        print ("[++]|Author: ron020                                         |[++]")
         print ("[++]+=======================================================+[++]")
 
 
