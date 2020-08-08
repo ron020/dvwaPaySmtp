@@ -10,6 +10,7 @@ import socketserver
 from urllib.parse import urlparse
 
 """
+dvwaPaySmTp(DVWA PAYLOAD SMTP)
 How to use: Youtube: https://youtu.be/q3n1hnrux8g
 """
 
