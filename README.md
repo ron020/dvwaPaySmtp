@@ -5,4 +5,4 @@ The SMTP service is also used to send malicious PHP payload ('cmd').
 
 Exploit: http://HOSTNAME/dvwa/vulnerabilities/fi/?page=/var/spool/mail/www-data
 
-How to use: https://youtu.be/q3n1hnrux8g
+Youtube: https://youtu.be/q3n1hnrux8g
